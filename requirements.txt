@@ -1,0 +1,7 @@
+azureml-core
+ipykernel
+matplotlib
+numpy
+pandas
+scikit-learn
+seaborn
