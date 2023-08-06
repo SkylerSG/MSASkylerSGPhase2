@@ -1,0 +1,3 @@
+https://github.com/NZMSA/2023-Phase-2/blob/main/data-science/3.%20Microsoft%20Azure/example.ipynb
+
+Example notebook provided by MSA.
