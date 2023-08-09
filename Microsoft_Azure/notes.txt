@@ -1,0 +1,6 @@
+Just a quick note on this folder, for context:
+I attempted the regression model port to Azure, which was working well until the data conversion/JSON issue I didn't have time to fix. 
+So, I didn't attempt the other model as it would've run into the same issue as the porting process is basically the same. 
+However, as shown in the training_and_eval folder with the files for both sets, the process works on an independed machine. 
+
+I will continue attempting the Azure port after the deadline for preparation if I manage to get through to the next stage. However, it won't be submitted here as per the deadline time.
