@@ -2,7 +2,7 @@ import json, os, joblib
 import numpy as np
 
 # Since the model works with label-encoded data, we can create a dictionary to get the actual class names
-classes = {0: "setosa", 1: "versicolor", 2: "virginica"}
+#classes = {0: "setosa", 1: "versicolor", 2: "virginica"}
 
 def init():
     # Loads the model
@@ -20,5 +20,5 @@ def run(request):
     print(f'Data array: {data} completed')
     result = model.predict(data)
     print(f'Result: {result}')
-    #return [classes.get(key) for key in result] 
-    return result #Don't need classes for regression model :D
+    return [data["data"][key] for key in result]
+    #return result #Don't need classes for regression model :D
